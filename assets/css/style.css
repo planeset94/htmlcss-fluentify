@@ -4,3 +4,44 @@
     padding: 0;
     margin: 0;
 }
+div.contenitore{
+    width: 90%;
+    margin: auto;
+    border: 1px solid red;
+}
+clearfix::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+
+/* Debug style  */
+header{
+    height: 200px;
+    background-color: #0c325a;
+}
+
+main{
+    height: 600px;
+    background-color: #ffffff;
+}
+footer{
+    height: 100px;
+    background-color: #d3d3d3;
+}
+
+/* header style  */
+div.box{
+    float:left;
+    border: 5px solid white;
+    height: 50px;
+}
+div.logo.box{
+    width: 15%;
+}
+div.central.box{
+    width: 45%;
+}
+div.right.box{
+    width: 40%;
+}
