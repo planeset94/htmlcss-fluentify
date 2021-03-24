@@ -109,7 +109,6 @@ aside>a{
 
     /* Div grey  */
 main>div.main-top{
-    /* height: 10rem; */
     background-color: #d3d3d3;
     text-align: center;
     padding:2.5rem;
@@ -123,9 +122,9 @@ div.main-top>p{
     margin-top: 0.5rem;
 }
 
-    /* Main Sections */
+    /* First/top Section */
 div>.section{
-    height: 20rem;
+    height: 25rem;
 }
 div>.section:first-child{
     border:2px solid orange;
@@ -139,8 +138,8 @@ div>.section>.card{
     float: left;
     height:100%;
     width: calc(100%/ 3 - 20px/3);
-    background-color:green;
     margin-right: 10px;
+    text-align: center;
     
 }
 div>.section>.card:last-child{
@@ -150,4 +149,17 @@ div>.section>.card:last-child{
 
 div>.section>.card>img{
     height: 50%;
+    width: 100%;
+    padding: 1.5rem;
 }
+
+div>.section>.card>h5{
+    color:#7dbb05;
+    font-size: 1.5rem;
+}
+div>.section>.card>p{
+    padding-top: 1rem;
+    color: #969696;
+}
+
+/* Second/bottom Section */
