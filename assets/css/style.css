@@ -28,7 +28,7 @@ header{
 }
 
 main{
-    height: 600px;
+    /* height: 600px; */
     background-color: #ffffff;
 }
 footer{
@@ -124,3 +124,30 @@ div.main-top>p{
 }
 
     /* Main Sections */
+div>.section{
+    height: 20rem;
+}
+div>.section:first-child{
+    border:2px solid orange;
+}
+div>.section:last-child{
+    border:2px solid purple;
+}
+
+
+div>.section>.card{
+    float: left;
+    height:100%;
+    width: calc(100%/ 3 - 20px/3);
+    background-color:green;
+    margin-right: 10px;
+    
+}
+div>.section>.card:last-child{
+    margin-right: 0;
+}
+
+
+div>.section>.card>img{
+    height: 50%;
+}
