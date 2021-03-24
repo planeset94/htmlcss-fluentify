@@ -61,7 +61,7 @@ div.right.box{
     text-align: right;
 }
 
-div>a {
+div.box>a {
     color:#d4dbe3;
     text-transform: uppercase;
     text-decoration: none;
@@ -134,7 +134,7 @@ div>.section:last-child{
 }
 
 
-div>.section>.card{
+div>.section.top>.card{
     float: left;
     height:100%;
     width: calc(100%/ 3 - 20px/3);
@@ -142,24 +142,62 @@ div>.section>.card{
     text-align: center;
     
 }
-div>.section>.card:last-child{
+div>.section.top>.card:last-child{
     margin-right: 0;
 }
 
 
-div>.section>.card>img{
+div>.section.top>.card>img{
     height: 50%;
     width: 100%;
     padding: 1.5rem;
 }
 
-div>.section>.card>h5{
+div>.section.top>.card>h5{
     color:#7dbb05;
     font-size: 1.5rem;
 }
-div>.section>.card>p{
+div>.section.top>.card>p{
     padding-top: 1rem;
     color: #969696;
 }
 
 /* Second/bottom Section */
+
+div>.section.bottom>.square{
+    float: left;
+    height:100%;
+    width: calc(50% - 0.5rem);
+    text-align: center;
+    border:1px solid black;
+    
+}
+div>.section.bottom>.square:first-child{
+    margin-right: 1rem;
+}
+div>.section.bottom>.square.left>img{
+    height: 100%;
+    padding: 1rem;
+}
+
+div>.section.bottom>.square.right{
+    padding: 3.5rem 3.5rem 3.5rem 2rem;
+    text-align: left;
+}
+
+div>.section.bottom>.square.right>h4{
+    font-size: 1.6rem;
+    width: 80%;
+    text-align: left;
+}
+
+div>.section.bottom>.square.right>p{
+    padding: 1rem 0;
+    width: 80%;
+    color: #969696;
+
+}
+div>.section.bottom>.square.right>a{
+    color: #6a95c4;
+    display: inline-block;
+}
