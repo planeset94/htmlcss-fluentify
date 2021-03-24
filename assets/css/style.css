@@ -5,8 +5,10 @@
     margin: 0;
 }
 div.contenitore{
-    width: 90%;
+    width: 80%;
+    height: 100%;
     margin: auto;
+    position: relative;
     border: 1px solid red;
 }
 clearfix::after{
@@ -17,8 +19,12 @@ clearfix::after{
 
 /* Debug style  */
 header{
-    height: 200px;
+    height: 35rem;
     background-color: #0c325a;
+    background-image: url(../img/background-header.png);
+    background-size: 950px;
+    background-repeat: no-repeat;
+    background-position: 120% 115%;
 }
 
 main{
@@ -55,7 +61,7 @@ div.right.box{
     text-align: right;
 }
 
-div a {
+div>a {
     color:#d4dbe3;
     text-transform: uppercase;
     text-decoration: none;
@@ -65,12 +71,39 @@ div a {
 
 div.right.box > a.link{
     border-radius:5px;
-    padding:0.5rem 1rem;
+    padding:0.5rem;
 }
 div.right.box > a.link.login{
     border: 1px solid white;
+    margin: 0 1rem 0 0;
 }
 div.right.box > a.link.str{
     background-color: #7cbb05;
 }
+
+/* aside style  */
+aside.aside-box{
+    position: absolute;
+    left:0;
+    top:45%;
+}
+aside>h3{
+    color:white;
+    font-size: 3rem;
+    width: 60%;
+}
+
+aside>a{
+    color:#d4dbe3;
+    background-color: #7cbb05;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7rem;
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding:1rem;
+    border-radius: 5px;
+}
+    
+/* main style  */
 
