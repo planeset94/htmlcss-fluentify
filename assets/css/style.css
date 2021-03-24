@@ -31,17 +31,37 @@ footer{
 }
 
 /* header style  */
+nav{
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-top: 1rem;
+}
+
 div.box{
     float:left;
-    border: 5px solid white;
-    height: 50px;
+    /* border: 5px solid white; */
 }
+
+
 div.logo.box{
     width: 15%;
 }
+
 div.central.box{
-    width: 45%;
+    width: 50%;
+    /* text-align: right; */
 }
 div.right.box{
-    width: 40%;
+    width: 35%;
+    text-align: right;
 }
+
+div a {
+    color:#d4dbe3;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7rem;
+    padding: 0.8rem;
+}
+
