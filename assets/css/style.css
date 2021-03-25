@@ -127,7 +127,7 @@ div.main-top>p{
 
     /* First/top Section */
 div>.section{
-    height: 25rem;
+    height: 55vh;
 }
 
 div>.section.top>.card{
@@ -171,8 +171,10 @@ div>.section.top>.card>p{
     margin: 2rem 0;
     color: #969696;
 }
-
-section.top::after{
+hr{
+    margin-top: 2rem;
+}
+/* section.top::after{
     width: 200%;
     content: "";
     display: block;
@@ -183,12 +185,12 @@ section.top::after{
     top:100%;   
     transform: translateX(-50%);
     margin-top: 1rem;
-}
+} */
 
 /* Second/bottom Section */
 
 div>.section.bottom>.square{
-    padding-top: 2rem;
+    padding-top: 1rem;
     float: left;
     height:100%;
     width: calc(50% - 0.5rem);
@@ -199,7 +201,7 @@ div>.section.bottom>.square:first-child{
 }
 div>.section.bottom>.square.left>img{
     height: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 div>.section.bottom>.square.right{
