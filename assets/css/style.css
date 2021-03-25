@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 div.contenitore{
     width: 80%;
     height: 100%;
@@ -18,7 +21,7 @@ clearfix::after{
 
 /* Debug style  */
 header{
-    height: 35rem;
+    height: 32rem;
     background-color: #0c325a;
     background-image: url(../img/background-header.png);
     background-size: 950px;
@@ -81,7 +84,8 @@ div.right.box > a.link.str{
 aside.aside-box{
     position: absolute;
     left:0;
-    top:45%;
+    top:40%;
+   
 }
 aside>h3{
     color:white;
