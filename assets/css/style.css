@@ -94,7 +94,7 @@ aside>h3{
     width: 60%;
 }
 
-aside>a{
+a.aside-box{
     color:#d4dbe3;
     background-color: #7cbb05;
     text-transform: uppercase;
@@ -228,42 +228,78 @@ div>.section.bottom>.square.right>a{
 
 /* FOOTHER style  */
 footer{
-    height: 150px;
+    height: 200px;
     background-color: #d3d3d3;
+    color:black;
 }
 
 footer>.contenitore>div.bottom-bar{
-    height: 70px;
-    line-height: 70px;
-    background-color: red;
-
+    line-height: 50px;
 }
 
 footer>.contenitore>div.bottom-bar>.square{
     float: left;
     height:100%;
     width: calc(50% - 0.5rem);
-    border:1px solid black;
-    text-align: left;
+    margin-top: 2rem;
+
     
 }
 footer>.contenitore>.bottom-bar>.square:first-child{
     margin-right: 1rem;
 }
 
+.square.left{
+    text-align: left;
+}
+
+.square.right{
+    text-align: center;
+}
+
+
 .square.left>h4{
-   
-    font-size: 1.6rem;
+    font-size: 1.9rem;
+    font-weight:900;
     
 }
-/* 
-footer>.contenitore>div.bottom-bar>.square.right{
-    background-color: inherit;
+
+label{    
     color:#8b8b8b;
-    font-size: 1rem;
-    padding: 3.1rem 0 0 4rem;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+    font-weight:bolder;
+} 
+select{
+    background-color: inherit;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    font-size: 1.1rem;
+    color:#8b8b8b;
 }
-#prof-selector{
-    background-color: inherit;
-    color:#8b8b8b;
-} */
+a.last-a{
+    color: white;
+    background-color: #7cbb05;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7rem;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 1.5rem;
+    margin-left: 1rem;   
+}
+
+div.help{
+ 
+    color: white;
+    background-color: #7cbb05;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7rem;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 1rem;
+    margin: 0.7rem 0 0 16rem;
+    
+}
